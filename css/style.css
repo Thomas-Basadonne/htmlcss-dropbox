@@ -8,6 +8,11 @@ button{
     background-color: #0D60FF;
     padding: 8px 12px;
     border: none;
+    cursor: pointer;
+}
+
+button:active{
+    filter: sepia(60%)
 }
 
 main{
@@ -45,12 +50,15 @@ header{
     width: 100%;
     z-index: 1;
     background-color: #FFFFFF;
-   
 }
 
 header>div>ul{
     display: flex;
     align-items: baseline;
+}
+
+header>div>ul:hover {
+  
 }
 
 .logo {
@@ -100,17 +108,21 @@ h1{
     height: 110%;
 }
 
+.jumbo-text>a{
+    color: #000000;
+}
+
 .arrow{
     font-size: 1.8rem;
 }
 
 /* SECTION 1 */
 
-.abbonamento{
+#abbonamento{
     margin-top: 10rem ;
 }
 
-.abbonamento>h2{
+#abbonamento>h2{
     font-size: 45px;
     margin-bottom: 3rem;
 }
@@ -335,7 +347,7 @@ h2{
     font-weight: 900;
 }
 
-.q-a>hr{
+.domande-frequenti>hr{
     width: 100%;
     margin: 2rem 0;
 }
@@ -344,6 +356,26 @@ h2{
     display: flex;
     justify-content: space-between;
     padding-right: 1rem;
+}
+
+.answer{
+    display: none;
+    font-size: small;
+    transition-duration: 5s;
+    
+}
+
+.q-a{
+    cursor: pointer;
+}
+
+.q-a:hover .answer{
+    display: block;
+    transition-duration: 5s;
+}
+
+.q-a:hover .question>i {
+    rotate: 180deg;
 }
 
 
