@@ -31,7 +31,7 @@
 	<header>
 		<div>
 			<ul>
-				<li><a href="#"><img src="./img/logo-small.png" alt="logo"></a></li>
+				<li><a href="#"><img class="logo"src="./img/logo-small.png" alt="logo"></a></li>
 				<li><a href="#">Perchè Dropbox</a></li>
 				<li><a href="#">Funzioni</a></li>
 				<li><a href="#">Piani e Prezzi</a></li>
@@ -52,14 +52,14 @@
 	<!-- JUMBOTRON -->
 	<section class="jumbotron">
 		<div class="container">
-			<h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
+			<h1 class="pt5">Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
 			<div class="jumbo-content">
 				<div class="jumbo-text">
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit asperiores repellat quam repudiandae, ipsam sed! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem officiis eius dolorem modi ex! Obcaecati eaque architecto asperiores est, sit magni totam corporis corrupti adipisci neque. Sapiente nihil accusamus numquam?
 						Earum inventore aliquam atque rem, dolores esse dolorum, quasi cum adipisci sint unde quam cumque?</p>
 					<button>Inizia la tua prova gratuita</button>
 					<p>Annulla in qualsiasi momento</p>
-					<i class="fa-solid fa-arrow-down"></i>
+					<i class="arrow fa-solid fa-arrow-down"></i>
 				</div>
 				<div>
 				<img id="jumbo-img" src="./img/jumbo.png" alt="homepage">
@@ -87,14 +87,14 @@
 		
 		<div class="colonne">
 			<div class="col">
-				<div class="type">&hearts;singolo</div>
+				<div class="type"><i class="fa-solid fa-user pr1"></i>Singolo</div>
 				<div class="col-pad">
 					<h3>Professional</h3>
 					<p>&euro; 12.00</p>
 					<span>/mese</span>
-					<div>&hearts; 1 utente</div>
-					<div>&hearts; 5 TB di spazion di archiviazione sicuro</div>
-					<div>&hearts; Funzioni di produttività premium e condivisione file semplice e sicura</div>
+					<div><i class="fa-solid fa-user"></i> 1 utente</div>
+					<div><i class="fa-solid fa-folder"></i> 5 TB di spazion di archiviazione sicuro</div>
+					<div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
 					<button>Prova gratis per 30 giorni</button>
 					<span> oppure <a href="#"> acquista ora</a></span>
 					<hr>
@@ -107,14 +107,14 @@
 			</div>
 			
 			<div class="col">
-				<div class="type">&hearts;team</div>
+				<div class="type"><i class="fa-solid fa-people-group pr1"></i>Team</div>
 				<div class="col-pad">
 					<h3>Advanced</h3>
 					<p>&euro; 12.00</p>
 					<span>/utente/mese</span>
-					<div>&hearts; 1 utente</div>
-					<div>&hearts; 5 TB di spazion di archiviazione sicuro</div>
-					<div>&hearts; Funzioni di produttività premium e condivisione file semplice e sicura</div>
+					<div><i class="fa-solid fa-people-group"></i> 3 o più utenti</div>
+					<div><i class="fa-solid fa-folder"></i> 5 TB di spazion di archiviazione sicuro</div>
+					<div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
 					<button>Prova gratis per 30 giorni</button>
 					<span> oppure <a href="#"> acquista ora</a></span>
 					<hr>
@@ -130,14 +130,14 @@
 			</div>
 
 			<div class="col">
-				<div class="type">&hearts;azienda</div>
+				<div class="type"><i class="fa-solid fa-building pr1"></i>Azienda</div>
 				<div class="col-pad">
 					<h3>Enterprise</h3>
 					<p>&euro; 12.00</p>
 					<span>-</span>
-					<div>&hearts; 1 utente</div>
-					<div>&hearts; 5 TB di spazion di archiviazione sicuro</div>
-					<div>&hearts; Funzioni di produttività premium e condivisione file semplice e sicura</div>
+					<div><i class="fa-solid fa-user"></i> 10 o più utenti</div>
+					<div><i class="fa-solid fa-folder"></i> 5 TB di spazion di archiviazione sicuro</div>
+					<div><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</div>
 					<button>Contattaci</button>
 					<span> oppure <a href="#"> acquista 	ora</a></span>
 					<hr>
@@ -153,13 +153,12 @@
 		
 
 		<div class="rectangle">
-			<div class="type">&hearts;team</div>
+			<div class="type"><i class="fa-solid fa-building pr1"></i>Team</div>
 			<div class="rect-flex">
-				<div>
+				<div class="pb2">
 					<h3>Enterprise</h3>
 					<h5 class="pt3">Contatta l'ufficio vendite per i prezzi</h5>
-					<p class="pt5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur laudantium cum magni provident,
-						omnis similique. </p>
+					<p class="pt5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur laudantium cum magni provident.</p> 
 				</div>
 				
 				<div>
@@ -169,7 +168,7 @@
 		</div>
 	</section>
 
-	<section class="partner mb5 pb5 mt5 pt5">
+	<section class="partner mb5 pb5 mt4 pt4">
 
 		<div class="main-col">
 			<img src="./img/partner.png" alt="partner">
@@ -239,34 +238,40 @@
 	</section>
 </div>
 
-<section class="container">
-	<div class="img">
-		<img src="./img/arizona_state_university.svg" alt="partner">
-		<img src="./img/clear_channel.svg" alt="partner">
-		<img src="./img/designit.svg" alt="partner">
-		<img src="./img/hearst_corp.svg" alt="partner">
+<section class="partner">
+	<div class="row">
+		<div class="img-partner d-wrap">
+			<div class="square-logo a1"><img src="./img/arizona_state_university.svg" alt="partner"></div>
+			<div class="square-logo a2"><img src="./img/clear_channel.svg" alt="partner"></div>
+			<div class="square-logo a3"><img src="./img/designit.svg" alt="partner"></div>
+			<div class="square-logo a4"><img src="./img/hearst_corp.svg" alt="partner"></div>
+		</div>
+		
+		<div class="main-partner p5">
+			<img class="pb4" src="./img/designit.svg" alt="partner">
+			<hr>
+			<blockquote class="pt4">
+				<p class="pb5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam ab dolorum laboriosam voluptates,
+					perspiciatis at, alias quos odio dolor illo odit quaerat eveniet, cupiditate ad maxime dicta. Inventore,
+					sapiente.</p>
+				<cite class="pt3">Thomas Basadonne, Global IT Lead</cite>
+			</blockquote>
+		</div>
+		
+		<div class="img-partner d-wrap">
+			<div class="square-logo b1"><img src="./img/topps.svg" alt="partner"></div>
+			<div class="square-logo b2"><img src="./img/university_of_florida.svg" alt="partner"></div>
+			<div class="square-logo b3"><img src="./img/world_bicycle_relief.svg" alt="partner"></div>
+			<div class="square-logo b4"><img src="./img/lonely_planet.svg" alt="partner"></div>
+		</div>
 	</div>
 	
-	<div>
-		<img src="./img/designit.svg" alt="partner">
-		<blockquote>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam ab dolorum laboriosam voluptates, perspiciatis at, alias quos odio dolor illo odit quaerat eveniet, cupiditate ad maxime dicta. Inventore, sapiente.</p>
-			<cite>Thomas Basadonne, Global IT Lead</cite>
-		</blockquote>
-	</div>
-
-	<div class="img">
-		<img src="./img/topps.svg" alt="partner">
-		<img src="./img/university_of_florida.svg" alt="partner">
-		<img src="./img/world_bicycle_relief.svg" alt="partner">
-		<img src="./img/lonely_planet.svg" alt="partner">
-	</div>
 </section>
 <section class="sky">
 	<div class="container-small">
 		<div class="azienda">
 			<div>Porta Dropbox Business nella tua azienda.</div>
-			<div><button>Inizia la tua prova gratuita</button></div>
+			<span><button>Inizia la tua prova gratuita</button></span>
 		</div>
 		
 	</div>
@@ -307,10 +312,7 @@
 	</section>
 </div>
 
-
-
-
-	</main>
+ </main>
 
 <!-- FOOTER -->
 <footer class="pt5 pb5 mt5">
